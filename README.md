@@ -102,3 +102,5 @@ python plot_influence_over_time.py
 2. Ensure data files are in the same directory
 3. Run any tool: `python plot_[tool_name].py`
 4. Use interactive controls to explore influences
+
+***For any questions or issues, please contact mohtadimahim@gmail.com***

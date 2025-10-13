@@ -85,7 +85,7 @@ def plot_influence_over_time(yrefs, test_coords, train_coords, influences_all):
         top_influences = influence_np[top_idx]
         norm = plt.Normalize(vmin=np.min(top_influences), vmax=np.max(top_influences))
         cmap_influence = plt.get_cmap('PRGn')
-        influence_scatter[0] = ax1.scatter(xs, ys, s=20, c=top_influences, cmap='PRGn', norm=norm, edgecolor='none')
+        influence_scatter[0] = ax1.scatter(xs, ys, s=20, c=top_influences, cmap='Greens', norm=norm, edgecolor='black', linewidth=0.5)
         # Add or update colorbar for influence
         if not hasattr(update_plots, 'cbar') or update_plots.cbar is None:
             update_plots.cbar = fig.colorbar(influence_scatter[0], ax=ax1, orientation='vertical')

@@ -20,7 +20,7 @@ cd continuous_field_reconstruction_influences
 pip install -r requirements.txt
 ```
 
-3. Download and unzip the data file.
+3. Download and unzip the data file. (Only needed for Point Influence Tool)
 
 Make sure the data file is in the root directory.
 | Dataset | Link |
